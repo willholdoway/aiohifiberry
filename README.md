@@ -14,7 +14,7 @@ from aiohifiberry import AudioControlClient
 
 
 async with ClientSession() as session:
-    client = AudioControlClient(session, "192.168.1.61")
+    client = AudioControlClient(session, "hifiberry.local")
     await client.async_update()
     print(client.now_playing)
     await client.async_command("pause")
