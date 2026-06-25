@@ -38,4 +38,3 @@ http://<device>/api/audiocontrol/
 Some builds also expose backend services on custom ports. The client defaults
 to port `80` and falls back to the public route for proxied endpoints when a
 non-80 port is supplied.
-
